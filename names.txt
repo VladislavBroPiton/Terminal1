@@ -1,3 +1,52 @@
-1) Vlad
-2) Ilya
-3) Maria
+Домашнее задание №1
+1) Посмотреть где я
+PWD
+
+2) Создать папку  GIT1
+mkdir GIT1
+
+3) Зайти в папку GIT1
+cd GIT1
+
+4) Создать 3 папки Tester2 Tester3 Tester4
+mkdir Tester2 Tester3 Tester4
+
+5) Зайти в папку Tester2
+cd Tester2
+
+6) Создать 5 файлов (3 txt, 2 json)
+touch tester1.txt tester2.txt tester3.txt tester.2json tester1.json
+
+7) Создать 3 папки
+mkdir Tester2 Tester3 Tester4
+
+8) Вывести список содержимого папки 
+ls -la
+
+9)+ открыть любой txt файл
+cat Tester2.txt
+
+10)+ написать туда что-нибудь, любой текст
+echo "Zdaaaarooovaa" >Tester2.txt
+Либо 
+vim Tester2.txt
+11)+ сохранить и выйти 
+Через редактор vim:
+Нажимаем Esc после зажимаем Shift + ZZ 
+
+12) Выйти из папки на уровень выше
+cd ..
+
+13) Переместить любые 2 файла, которые вы создали, в любую другую папку 
+mv tester2/tester2.txt tester3/tester2.txt mv tester2/tester1.txt tester3/tester1.txt
+mv file111.txt test333.txt test6
+
+14) Скопировать любые 2 файла, которые вы создали, в любую другую папку
+cp tester3/tester2.txt tester2/tester2.txt 
+cp tester3/tester1.txt tester2/tester1.txt
+
+
+15) Найти файл по имени 
+find . -name"tester2.txt"
+
+16) Посмотреть содержимое в реальном времени (команда grep) изучите как она работает
