@@ -38,15 +38,31 @@ vim Tester2.txt
 cd ..
 
 13) Переместить любые 2 файла, которые вы создали, в любую другую папку 
-mv tester2/tester2.txt tester3/tester2.txt mv tester2/tester1.txt tester3/tester1.txt
-mv file111.txt test333.txt test6
+mv tester2/tester2.txt tester3/tester2.txt 
+mv tester2/tester1.txt tester3/tester1.txt
 
 14) Скопировать любые 2 файла, которые вы создали, в любую другую папку
-cp tester3/tester2.txt tester2/tester2.txt 
-cp tester3/tester1.txt tester2/tester1.txt
-
+cp tester3/tester2.txt tester4/tester2.txt 
+cp tester3/tester1.txt tester4/tester1.txt
 
 15) Найти файл по имени 
-find . -name"tester2.txt"
+find . -name "tester2.txt"
 
 16) Посмотреть содержимое в реальном времени (команда grep) изучите как она работает
+grep 'ok' tester2.txt
+
+17) вывести несколько первых строк из текстового файла 
+head --lines 2 tester2.txt
+либо
+head -n 3 tester2.txt
+
+18) вывести несколько последних строк из текстового файла 
+tail --lines 2 tester2.txt
+либо 
+tail -n 2 tester2.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает 
+less tester2.txt
+
+20) вывести дату и время 
+date
