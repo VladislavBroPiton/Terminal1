@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo Зайти в папку 
+cd GIT
+echo Создать 3 папки
+mkdir Tester2 Tester3 Tester4
