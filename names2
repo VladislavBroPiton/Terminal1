@@ -49,3 +49,64 @@ the SeCoNd 2
 13. Через cat добавить в тестовый файл tf_2.txt строку "the seConD 2"
 cat>>tf_2.txt
 the seConD 2
+
+14. Сделать текстовый файл tf_4.txt в котором будет 15 строк
+cat>tf_4.txt
+1. One
+2. Two
+3. Three
+4. Four
+5. Five
+6. Six
+7. Seven
+8. Eight
+9. Nine
+10. Ten
+11. Eleven
+12. Twelve
+13. Thirteen
+14. Fourteen
+15. Fifteen
+
+15. Сделать текстовый файл tf_5.txt в котором будет 13 строк
+cat>tf_5.txt
+1. One
+2. Two
+3. Three
+4. Four
+5. Five
+6. Six
+7. Seven
+8. Eight
+9. Nine
+10. Ten
+11. Eleven
+12. Twelve
+13. Thirteen
+
+16. Вывести список всех файлов в папке 
+ls -la
+
+17. Выйти из папки inner_dir_1
+cd ..
+
+18. Вывести содержимое файла tf_3.txt в терминал 
+cat tf_3.txt
+
+19. Найти путь к файлу tf_4.txt
+realpath tf_4.txt
+
+20. Очистить файл tf_4.txt от содержимого без удаления самого файла
+echo>tf_4.txt
+
+21. Найти путь к файлам у которых есть "tf" в названии
+find $(pwd) -name "*tf*"
+
+22. Найти путь к файлам у которых есть "tf" в названии и буквы в любом регистре
+find $(pwd) -iname "*tf*"
+
+23. Найти строки в файлах где есть комбинация букв "sec" в текущей папке
+grep sec *
+
+24. Найти строки в файлах где есть комбинация букв "sec" в любом регистре в текущей папке
+grep -i sec *
