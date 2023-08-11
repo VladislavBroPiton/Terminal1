@@ -145,10 +145,10 @@ head -n 4 tf_3.txt
 mkdir q1 && touch q1/q2.txt
 
 36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово "sec"
-grep -l -r sec| xargs -I {} mb {} inner_dir_2/
+grep -l -r sec| xargs -I {} mv {} inner_dir_2/
 
 37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово "sec"
-grep -l -r sec| xargs -I {} cp {} inner_dir_1/
+grep -l -r sec| xargs -I {} cp {} inner_dir_2/
 
 38. Команда в одну строку. Найти все строки с "sec" во всех текстовых файлах, скопировать и вставить эти строки в один новый 
 grep -r sec|cat>>inner_dir_2/myfile2.txt
