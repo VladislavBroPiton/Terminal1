@@ -155,3 +155,6 @@ grep -r sec|cat>>inner_dir_2/myfile2.txt
 
 39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово "sec"
 grep -r -l sec| xargs rm -f
+
+40. Просто вывести в терминал строку “Good job!!”
+echo "Good job! !"
