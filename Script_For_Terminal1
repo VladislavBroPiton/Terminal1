@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "Здравствуй. Это мой первый скрипт"
+echo "Зайти в папку"
+cd /c/36group
+ echo "Создать 3 папки"
+mkdir Tester2 Tester3 Tester4
+echo "Зайти в папку Tester2"
+cd Tester2
+echo "Создать 5 файлов 3txt и 2json"
+touch t2.txt t3.txt t4.txt t5.json t6.json
+echo "Создать 3 папки"
+mkdir q1 q2 q3
+echo "Вывести список содержимого папки"
+ls -la
+echo "Выйти на 1 уровень вверх"
+cd ..
+echo "Переместить любые 2 файла, которые вы создали, в любую другую папку"
+mv tester2/t2.txt tester3/t2.txt
+mv tester2/t3.txt tester3/t3.txt
