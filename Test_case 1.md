@@ -1,3 +1,0 @@
-ID | Summary | Pre-conditions | Test data | Steps | Expected results
-:--|:-------:|:--------------:|:---------:|:-----:|----------------:
-1 | The registration via email by non-existed user| Email: test@gmail.com| 1. Go to https://best.aliexpress.com/ 2. Go to Account > Register button 3. Choose a location 4. Input email from test data | 1. The main page is opened 2. The registration window is opened 3. The dropdown with location is opened. User can choose a location |
