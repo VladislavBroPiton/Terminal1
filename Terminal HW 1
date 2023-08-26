@@ -72,5 +72,3 @@ date
 curl "http://162.55.220.72:5005/get_method?name=Vladislav&age=30"
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
-
-![Спасибо за просмотр](https://kartinkof.club/uploads/posts/2022-03/1648262006_1-kartinkof-club-p-mem-spasibo-za-prosmotr-1.jpg)
