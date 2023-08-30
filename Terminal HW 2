@@ -157,4 +157,5 @@ grep -r sec|cat>>inner_dir_2/myfile2.txt
 grep -r -l sec| xargs rm -f
 
 40. Просто вывести в терминал строку “Good job!!”
-echo "Good job! !"
+echo "Good job!!"
+
