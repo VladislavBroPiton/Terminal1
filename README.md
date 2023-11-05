@@ -13,4 +13,4 @@
    
    
 git branch создание ветки
-git checkout переход в ветку
+git   checkout переход в ветку
