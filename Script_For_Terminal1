@@ -2,7 +2,7 @@
 echo "Здравствуй. Это мой первый скрипт"
 echo "Зайти в папку"
 cd /c/36group
- echo "Создать 3 папки"
+echo "Создать 3 папки"
 mkdir Tester2 Tester3 Tester4
 echo "Зайти в папку Tester2"
 cd Tester2
@@ -17,5 +17,4 @@ cd ..
 echo "Переместить любые 2 файла, которые вы создали, в любую другую папку"
 mv tester2/t2.txt tester3/t2.txt
 mv tester2/t3.txt tester3/t3.txt
-  
   
